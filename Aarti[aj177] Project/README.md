@@ -39,9 +39,9 @@ I elected to viz + analyze data on a **national level** to glean macro trends. C
 
 
 **Code excerpt from munging in Python**
-![Screenshot](/Users/Aarti/Desktop/STAT_project/py_1.png)
-![Screenshot](/Users/Aarti/Desktop/STAT_project/py_2.png)
-![Screenshot](/Users/Aarti/Desktop/STAT_project/py_3.png)
+![Screenshot](py_1.png)
+![Screenshot](py_2.png)
+![Screenshot](py_3.png)
 
 
 
@@ -68,21 +68,21 @@ I used R for data viz + statistical analysis. In particular, I used
 
 #####**Graph1**
 Count of ART Cycles by Age, by Egg Type
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/cyc_ND.png)
+![Screenshot](cyc_ND.png)
 
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/cyc_D.png)
+![Screenshot](cyc_D.png)
 
 
 
 #####**Graph2**
 Count of singleton live births by Age, by Egg Type
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/viol.png)
+![Screenshot](viol.png)
 
 I used a violin density plot to convey the summary of this distribution. I changed the default to **equal width**. 
 
 #####**Graph3**
 Distribution of singleton live births as a proxy for fertility rates.
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/sLB_kde.png)
+![Screenshot](sLB_kde.png)
 
 
 I researched literature and found that fertility rates, as a function of Age, are well represented by a beta or gamma distribution. In the, graph above I used the KernSmooth package and the Epanechnikov kernel to viz the population of singleton live births, as a function of women's age.
@@ -92,26 +92,26 @@ I researched literature and found that fertility rates, as a function of Age, ar
 
 #####**Graph4**
 Surveillance for fresh NonDonor Egg by metric
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/surveil_ND.png)
+![Screenshot](surveil_ND.png)
 
 
 #####**Graph5**
 Distribution of multiple-infant live births as a representation of fertility rates.
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/multi_kde.png)
+![Screenshot](multi_kde.png)
 
 I used the Epanechnikov kernel to viz multiple-infant births as well but perhaps this requires future investigation 
 
 #####**Graph6**
 Distribution of cancelled ART cycles by Age, by Egg Type
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/cxld_kde.png)
+![Screenshot](cxld_kde.png)
 
 Based on visual inspection, I used the Gaussian kernel to viz cancellation  rates but I would like to investigate if it is better fitted by lognormal density.
 
 ###GLM analysis
 Success metric: I used Gamma distribution for the singleton live births as a function of log(Age)
-![Screenshot](/Users/Aarti/Desktop/STAT_project/glm_sLB.png)
+![Screenshot](glm_sLB.png)
 
-![Screenshot](/Users/Aarti/Desktop/STAT_project/STAT_W4701_proj_R/resid_plot.png)
+![Screenshot](resid_plot.png)
 
 ###Overall insights
 Next step: interpret graphs + GLM analysis and gain some insight
